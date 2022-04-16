@@ -2,14 +2,19 @@
     será feito uma simples plataforma que irá converter
     graus Celsius em Fahrenheit e ao cotrario tambem.
 
-    formula de Fahrenheit = (F - 32) * 5/9
-    formula de Celsius = (C * 9/5 + 32)
+    formula de Fahrenheit para Celsius = (F - 32) * 5/9
+    formula de Celsius para Fahrenheit = (C * 9/5 + 32)
 
-    1. uma function que irá encontrar 'c' e 'f' para os graus, caso não encontre
-    ira imprimir uma mensagem para corrigir
+    1. cria uma variavel para guardar a formula de conversão
+    e outra para concatenar com a letra 'C' de celsius ou 'F' de Fahrenheit.
 
-    2. cria uma variavel para guardar a formula de conversão
-    e outra para concatenar com a letra 'C' de celsius
+    2. cria outra function para deixar maiuscula e substituir as letras para as adequadas.
+
+    3. um if para mostrar o erro caso haja.
+
+    4. outros dois if para trazer o resultado conforme selecionado pelo cliente.
+
+    5. ainda será feito uma interatividade para o usuario, neste momento apenas as funcionabilidades.
 
 
 */
@@ -48,12 +53,3 @@ function transformDegree(Degree) {
         return result;
     }
 }
-
-/*try{
-    console.log(transformDegree())
-}
-catch (error) {
-    console.log(error.message)
-}
-
-*/
